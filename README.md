@@ -87,9 +87,10 @@ python3 train.py \
 ## Model Zoo
 ### iNaturalist 2021 mini (90 epoch)
 
-| Backbone       | Size  |   Acc@1    |                                      Log                                      | Download  |
-| -------------- | :---: | :--------: | :---------------------------------------------------------------------------: | :-------: |
-| ResNet-50      |  224  |   67.924   |    [log](logs/log_inat21-mini_90epoch_r50_image-only_67.924_top1_acc.txt)     | [model]() |
-| + Dynamic MLP  |  224  | **78.751** |   [log](logs/log_inat21-mini_90epoch_r50_dynamic-mlp-c_78.751_top1_acc.txt)   | [model]() |
-| SK-Res2Net-101 |  224  |   76.102   |  [log](logs/log_inat21-mini_90epoch_sk2-101_image-only_76.102_top1_acc.txt)   | [model]() |
-| + Dynamic MLP  |  224  | **84.694** | [log](logs/log_inat21-mini_90epoch_sk2-101_dynamic-mlp-c_84.694_top1_acc.txt) | [model]() |
+| Backbone       | Size  |   Acc@1    |                                      Log                                      |                                                                     Download                                                                     |
+| -------------- | :---: | :--------: | :---------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| ResNet-50      |  224  |   67.924   |    [log](logs/log_inat21-mini_90epoch_r50_image-only_67.924_top1_acc.txt)     |    [model](https://github.com/ylingfeng/DynamicMLP/releases/download/v0.0/checkpoint_inat21-mini_90epoch_r50_image-only_67.924_top1_acc.pth)     |
+| + Dynamic MLP  |  224  | **78.751** |   [log](logs/log_inat21-mini_90epoch_r50_dynamic-mlp-c_78.751_top1_acc.txt)   |   [model](https://github.com/ylingfeng/DynamicMLP/releases/download/v0.0/checkpoint_inat21-mini_90epoch_r50_dynamic-mlp-c_78.751_top1_acc.pth)   |
+| SK-Res2Net-101 |  224  |   76.102   |  [log](logs/log_inat21-mini_90epoch_sk2-101_image-only_76.102_top1_acc.txt)   |  [model](https://github.com/ylingfeng/DynamicMLP/releases/download/v0.0/checkpoint_inat21-mini_90epoch_sk2-101_image-only_76.102_top1_acc.pth)   |
+| + Dynamic MLP  |  224  | **84.694** | [log](logs/log_inat21-mini_90epoch_sk2-101_dynamic-mlp-c_84.694_top1_acc.txt) | [model](https://github.com/ylingfeng/DynamicMLP/releases/download/v0.0/checkpoint_inat21-mini_90epoch_sk2-101_dynamic-mlp-c_84.694_top1_acc.pth) |
+
