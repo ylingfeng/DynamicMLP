@@ -1,7 +1,7 @@
 # Code for 'Dynamic MLP for Fine-Grained Image Classification by Leveraging Geographical and Temporal Information'
 
 <p align="center"> <img src="figs/structure.svg" width="100%"></p>
-Dynamic MLP, which is parameterized by the learned embeddings of variable locations and dates to help fine-grained image classification.
+[Dynamic MLP](https://arxiv.org/pdf/2203.03253.pdf), which is parameterized by the learned embeddings of variable locations and dates to help fine-grained image classification.
 
 ## Requirements
 
